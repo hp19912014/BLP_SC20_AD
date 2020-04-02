@@ -1,0 +1,8 @@
+
+all: atax
+
+atax: atax.cu
+	nvcc -Xcompiler -fopenmp -lcuda -lcudart -lgomp $(GCFLAGS)  -o atax atax.cu
+
+clean:
+	rm -rf atax
