@@ -12,3 +12,6 @@ The prototype folder contains our prototype implementations discussed in the pap
 ############################################
 
 Most Macros value have been pre-defined. Some might have hints to change to fit different environments (NVLink or PCIE) to achieve best performance
+
+############################################
+Each folder contains a makefile. Just Make and then run the executable to launch the test.
